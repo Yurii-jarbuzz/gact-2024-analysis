@@ -1,5 +1,3 @@
-# gact-2024-analysis
-
 # Test Date Bias in Ukraine’s 2024 GACT: Multivariate Analysis of Cognitive Scores and Key Predictors
 
 ### 📂 Data Source 
@@ -18,6 +16,10 @@ Raw Data: https://drive.google.com/drive/folders/1LCkuTZIFSVHCslZbj5FEKNAy010Z0G
 
 
 ## 📊 Visualizations 
+![GACT Score Distribution](visualizations/distribution_GACT_scores.png)
+*The visualization shows that GACT scores follow a nearly normal distribution*
+![Impact of all factors for all applicants](visualizations/all_factors.png)
+
 
 ## 📋 Project Overview
 The repository contains an analysis of the results of the cognitive test (General Academic Competency Test) for 2024. It examines the impact of various demographic and other available factors on the cognitive test results. It also analyzes the correlation between the results of other tests (in particular, professional exams) taken by applicants in 2024. 
@@ -40,14 +42,14 @@ To understand the differences in distribution between different tests and to ass
 - Pearson correlation analysis between subject-specific exams
 
 🔖 Reference
-**GACT / General Academic Competency Test / Cognitive test** — is a compulsory section of the Unified Entrance Examination (UEE) for admission to master’s and postgraduate programmes in Ukraine. It assesses logical and analytical thinking, as well as the ability to process information similar to an IQ test (укр. ТЗНК / Тест загальної навчальної компетентності).
-**Test date** — It is important to understand that, in the Ukrainian context, the ‘test date’ is not simply a matter of the date, day of the week, etc., but rather refers, in most cases, to different versions of cognitive tests containing different tasks. On certain test days, two sessions of the Unified Entrance Examination (including the cognitive test) are held, each with completely different tasks. The Ukrainian Centre for Educational Quality Assessment (UCEQA) does not provide detailed information about the specific test variants for each day.
-**Probable postgraduate** — this category includes applicants who have passed the cognitive test and the Unified Entrance Examination (including the foreign language component) but have not taken any other professional examination (Unified Professional Entrance Examination) or whose results have not been credited in the database.
-**Finance / Finance and Taxation / Accounting and Finance** — these are the terms used to refer to the professional examination in ‘Accounting and Finance’ (Ukrainian: ‘Облік та фінанси’). The raw scores for this exam are shown in the EFVVFinancBall column.
-**Pedagogy / Pedagogy and psychology** — these are the terms used to refer to the professional examination in Pedagogy and Psychology (Ukrainian: ‘Педагогіка та психологія’), to which the column with raw scores EFVVPedagBall corresponds; not to be confused with the other specialised examination, Psychology / Psychology and Sociology (Ukrainian: ‘Психологія та Соціологія’), for the raw scores of which the column EFVVPsychoBall corresponds.
-**Management / Management and Administration** — These are the terms used to refer to the unified professional examination and the ‘Management and Administration’ (Ukrainian: ‘Менеджмент та Адміністрування’) course. The raw scores for this exam are shown in the EFVVManageBall column.
-**Law / International Law** — These are the terms used to refer to the unified professional examination and the specialisation in Law and International Law (Ukrainian: ‘Право’ and ‘Міжнародне право’). The raw scores for this exam are shown in the EFVVIntLawBall column.
-**Foreign language** — this is part of the compulsory Unified Entrance Examination (on a par with the GACT), which assesses the proficiency of applicants in a foreign language (English, French, etc.). The raw scores for this section of the UEE are shown in the EVIBlock2Ball column. **It is important to understand that this test is taken alongside the cognitive test, and applicants may allocate more time to one section or another**; in other words, the difficulty of one section of the test may influence how much time an applicant spends on another section.
+* **GACT / General Academic Competency Test / Cognitive test** — is a compulsory section of the Unified Entrance Examination (UEE) for admission to master’s and postgraduate programmes in Ukraine. It assesses logical and analytical thinking, as well as the ability to process information similar to an IQ test (укр. ТЗНК / Тест загальної навчальної компетентності).
+* **Test date** — It is important to understand that, in the Ukrainian context, the ‘test date’ is not simply a matter of the date, day of the week, etc., but rather refers, in most cases, to different versions of cognitive tests containing different tasks. On certain test days, two sessions of the Unified Entrance Examination (including the cognitive test) are held, each with completely different tasks. The Ukrainian Centre for Educational Quality Assessment (UCEQA) does not provide detailed information about the specific test variants for each day.
+* **Probable postgraduate** — this category includes applicants who have passed the cognitive test and the Unified Entrance Examination (including the foreign language component) but have not taken any other professional examination (Unified Professional Entrance Examination) or whose results have not been credited in the database.
+* **Finance / Finance and Taxation / Accounting and Finance** — these are the terms used to refer to the professional examination in ‘Accounting and Finance’ (Ukrainian: ‘Облік та фінанси’). The raw scores for this exam are shown in the EFVVFinancBall column.
+* **Pedagogy / Pedagogy and psychology** — these are the terms used to refer to the professional examination in Pedagogy and Psychology (Ukrainian: ‘Педагогіка та психологія’), to which the column with raw scores EFVVPedagBall corresponds; not to be confused with the other specialised examination, Psychology / Psychology and Sociology (Ukrainian: ‘Психологія та Соціологія’), for the raw scores of which the column EFVVPsychoBall corresponds.
+* **Management / Management and Administration** — These are the terms used to refer to the unified professional examination and the ‘Management and Administration’ (Ukrainian: ‘Менеджмент та Адміністрування’) course. The raw scores for this exam are shown in the EFVVManageBall column.
+* **Law / International Law** — These are the terms used to refer to the unified professional examination and the specialisation in Law and International Law (Ukrainian: ‘Право’ and ‘Міжнародне право’). The raw scores for this exam are shown in the EFVVIntLawBall column.
+* **Foreign language** — this is part of the compulsory Unified Entrance Examination (on a par with the GACT), which assesses the proficiency of applicants in a foreign language (English, French, etc.). The raw scores for this section of the UEE are shown in the EVIBlock2Ball column. **It is important to understand that this test is taken alongside the cognitive test, and applicants may allocate more time to one section or another**; in other words, the difficulty of one section of the test may influence how much time an applicant spends on another section.
 
 ## 📊 Results and Conclusions
 → [Read full conclusions here](report/results_and_conclusions.pdf)
