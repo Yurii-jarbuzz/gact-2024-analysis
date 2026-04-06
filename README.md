@@ -19,6 +19,15 @@ Raw Data: https://drive.google.com/drive/folders/1LCkuTZIFSVHCslZbj5FEKNAy010Z0G
 ![GACT Score Distribution](visualizations/distribution_GACT_scores.png)
 *The visualization shows that GACT scores follow a nearly normal distribution*
 ![Impact of all factors for all applicants](visualizations/all_factors.png)
+![Aggregated results by testing day with confidence intervals](visualizations/test_date_results.png)
+![A linear linear mixed model and the effect of test date](visualizations/linear_mix_test_date.png) 
+![Quantile Impact Heatmap](visualizations/test_date_quantile_regression.png) 
+![Comparison top vs bottom registration entities](visualizations/reliable_entities_bottom_top.png)
+![Gender-Based Score Distribution (Cognitive Test)](visualizations/gender_comparison.png)
+![Age-Dependent Cognitive Test Performance: Men vs. Women](visualizations/gender_age_regression.png)
+![The effect of exam combinations on cognitive test scores](visualizations/linear_mix_test_ex_comb.png) 
+![Heatmap of correlations between different tests](visualizations/corr_all_exams.png) 
+
 
 
 ## 📋 Project Overview
