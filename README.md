@@ -18,9 +18,17 @@ Raw Data: https://drive.google.com/drive/folders/1LCkuTZIFSVHCslZbj5FEKNAy010Z0G
 ## 📊 Visualizations 
 ![GACT Score Distribution](visualizations/distribution_GACT_scores.png)
 *The visualization shows that GACT scores follow a nearly normal distribution*
+<br><br>
 ![Impact of all factors for all applicants](visualizations/all_factors.png)
+*The ANOVA Type II model was used, as it most effectively demonstrates the relative weight of each variable. Every factor is statistically significant (*p < 0.001*), confirming that the observed patterns are not due to random chance* 
+<br><br>
 ![Aggregated results by testing day with confidence intervals](visualizations/test_date_results.png)
+
+*The table shows significant differences in the results of test-takers who took the tests on different days, with no overlapping of the 95% confidence intervals. The significance of the differences across test days is further confirmed by the Games-Howell test*
+<br><br>
 ![A linear linear mixed model and the effect of test date](visualizations/linear_mix_test_date.png) 
+*The linear mixed model confirms that a test-taker in the same age group, of the same gender, and registered at the same institution (EONAME) may gain or lose up to 4 points depending solely on the test date*
+<br><br>
 ![Quantile Impact Heatmap](visualizations/test_date_quantile_regression.png) 
 ![Comparison top vs bottom registration entities](visualizations/reliable_entities_bottom_top.png)
 ![Gender-Based Score Distribution (Cognitive Test)](visualizations/gender_comparison.png)
