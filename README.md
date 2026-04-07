@@ -30,8 +30,13 @@ Raw Data: https://drive.google.com/drive/folders/1LCkuTZIFSVHCslZbj5FEKNAy010Z0G
 *The linear mixed model confirms that a test-taker in the same age group, of the same gender, and registered at the same institution (EONAME) may gain or lose up to 4 points depending solely on the test date*
 <br><br>
 ![Quantile Impact Heatmap](visualizations/test_date_quantile_regression.png) 
+*The quantile regression heat map confirms the conclusion that the effect of test date is systematic, rather than a bias toward “strong/weak” applicants (though with some variation)*
+<br><br>
 ![Comparison top vs bottom registration entities](visualizations/reliable_entities_bottom_top.png)
+*While this graph highlights an extreme comparison between the top 10 and bottom 10 institutions, both Type II ANOVA and Welch’s one-way ANOVA confirm that over **9%** of the variance in scores is attributable to the registration entity (**EONAME**)*
+<br><br>
 ![Gender-Based Score Distribution (Cognitive Test)](visualizations/gender_comparison.png)
+*While the effect of gender on individual outcomes is minimal (0.73% of total variance), the aggregated data show that the male distribution is shifted toward higher values. Furthermore, the lower kurtosis in the male group confirms **greater internal variation** compared to females*
 ![Age-Dependent Cognitive Test Performance: Men vs. Women](visualizations/gender_age_regression.png)
 ![The effect of exam combinations on cognitive test scores](visualizations/linear_mix_test_ex_comb.png) 
 ![Heatmap of correlations between different tests](visualizations/corr_all_exams.png) 
