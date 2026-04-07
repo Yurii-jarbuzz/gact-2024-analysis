@@ -37,10 +37,16 @@ Raw Data: https://drive.google.com/drive/folders/1LCkuTZIFSVHCslZbj5FEKNAy010Z0G
 <br><br>
 ![Gender-Based Score Distribution (Cognitive Test)](visualizations/gender_comparison.png)
 *While the effect of gender on individual outcomes is minimal (0.73% of total variance), the aggregated data show that the male distribution is shifted toward higher values. Furthermore, the lower kurtosis in the male group confirms **greater internal variation** compared to females*
+<br><br>
 ![Age-Dependent Cognitive Test Performance: Men vs. Women](visualizations/gender_age_regression.png)
+*The graph shows the change in the average cognitive test score by age for men and women; only values where the standard error is less than 0.3 points (less than 1% of all possible points) are included. A more quadratic trend is observed in the distribution of scores for women. This is interesting in that marginal factors influencing individual scores demonstrate clear patterns for aggregated scores*
+<br><br>
 ![The effect of exam combinations on cognitive test scores](visualizations/linear_mix_test_ex_comb.png) 
+*The linear mixed model confirms that the chosen exam “Information Technology” (in various combinations) is associated with higher scores on cognitive tests. The presence of this subject in a group of applicants can increase the average score by up to 4 points, although the overall effect of the combination of exams on explaining cognitive test results is relatively low (3.2% according to one-way ANOVA)*
+<br><br>
 ![Heatmap of correlations between different tests](visualizations/corr_all_exams.png) 
-
+*Correlations between the various EPEE (EFVV) and UEE (EVI) subtests range from moderate to strong. Notably, the correlation between the cognitive block (EVIBlock1Ball) and Information Technology (EFVVInfoTechBall) is on par with or even lower than that of several other subjects*
+<br><br>
 
 
 ## 📋 Project Overview
