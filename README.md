@@ -27,7 +27,7 @@ Raw Data: https://drive.google.com/drive/folders/1LCkuTZIFSVHCslZbj5FEKNAy010Z0G
 *The table shows significant differences in the results of test-takers who took the tests on different days, with no overlapping of the 95% confidence intervals. The significance of the differences across test days is further confirmed by the Games-Howell test.*
 <br><br>
 ![A linear linear mixed model and the effect of test date](visualizations/linear_mix_test_date.png) 
-*The linear mixed model confirms that a test-taker in the same age group, of the same gender, and registered at the same institution ('EONAME') may gain or lose up to 4 points depending solely on the test date.*
+*The linear mixed model confirms that a test-taker in the same age group, of the same gender, having the same combination of exams and registered at the same institution ('EONAME') may gain or lose up to 4 points depending solely on the test date.*
 <br><br>
 ![Quantile Impact Heatmap](visualizations/test_date_quantile_regression.png) 
 *The quantile regression heat map confirms the conclusion that the effect of test date is systematic, rather than a bias toward “strong/weak” applicants (though with some variation).*
@@ -79,7 +79,7 @@ To understand the differences in distribution between different tests and to ass
 * **Pedagogy / Pedagogy and psychology** — these are the terms used to refer to the professional examination in Pedagogy and Psychology (*UA: ‘Педагогіка та психологія’*), to which the column with raw scores `EFVVPedagBall` corresponds; not to be confused with the other specialised examination, Psychology / Psychology and Sociology (*UA: ‘Психологія та Соціологія’*), for the raw scores of which the column `EFVVPsychoBall` corresponds.
 * **Management / Management and Administration** — These are the terms used to refer to the unified professional examination and the ‘Management and Administration’ (*UA: ‘Менеджмент та Адміністрування’*) course. The raw scores for this exam are shown in the `EFVVManageBall` column.
 * **Law / International Law** — These are the terms used to refer to the unified professional examination and the specialisation in Law and International Law (*UA: ‘Право’ and ‘Міжнародне право’*). The raw scores for this exam are shown in the `EFVVIntLawBall` column.
-* **Foreign language / `EVIBlock2Ball`** — this is part of the compulsory Unified Entrance Examination (on a par with the GACT), which assesses the proficiency of applicants in a foreign language (English, French, etc.). The raw scores for this section of the UEE are shown in the EVIBlock2Ball column. **It is important to understand that this test is taken alongside the cognitive test, and applicants may allocate more time to one section or another**; in other words, the difficulty of one section of the test may influence how much time an applicant spends on another section.
+* **Foreign language / `EVIBlock2Ball`** — this is part of the compulsory Unified Entrance Examination (on a par with the GACT), which assesses the proficiency of applicants in a foreign language (English, French, etc.). The raw scores for this section of the UEE are shown in the 'EVIBlock2Ball' column. **It is important to understand that this test is taken alongside the cognitive test, and applicants may allocate more time to one section or another**; in other words, the difficulty of one section of the test may influence how much time an applicant spends on another section.
 
 ## 📊 Results and Conclusions
 → [Read full conclusions here](report/results_and_conclusions.pdf)
