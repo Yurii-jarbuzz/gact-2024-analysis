@@ -9,7 +9,7 @@ Raw Data: https://drive.google.com/drive/folders/1LCkuTZIFSVHCslZbj5FEKNAy010Z0G
 * On some days the test gave students up to **+4.01 extra points** compared to the baseline day (June 24, 2024).
 * Certain versions of the tests (test dates) were better suited to “weaker” or “stronger candidates”, but more often were systematically harder or easier for everyone.
 * Information technology as a professional exam is associated with higher scores on the cognitive test (up to 3 points in certain combinations).
- The registration institution accounts for 9.28% of the variance in cognitive test scores for applicants aged under 25, as well as 9.43% of the variance for all applicants in a simplified regression model.
+* The registration institution accounts for 9.28% of the variance in cognitive test scores for applicants aged under 25, as well as 9.43% of the variance for all applicants in a simplified regression model.
 * Gender has almost no practical effect on the average score (only 0.73%). However, men’s scores are more spread out and more men reach the very top results (this matches the **Greater Male Variability Hypothesis**)
 * Age accounts for only 0.31% of the variation in a standard regression and only 0.45% even when segmented. The highest average score was at age 24 (17.8 points) — these applicants had usually just completed their master’s degree.
 * Psychology was the easiest subject test (highest median score), while Finance was the hardest. Information Technology and Political Science best distinguished between strong and weak students.
