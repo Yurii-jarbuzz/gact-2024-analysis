@@ -1,5 +1,7 @@
 # Test Date Bias in Ukraine’s 2024 GACT: Multivariate Analysis of Cognitive Scores and Key Predictors
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19464389.svg)](https://doi.org/10.5281/zenodo.19464389)
+
 ### 📂 Data Source 
 Raw Data: https://drive.google.com/drive/folders/1LCkuTZIFSVHCslZbj5FEKNAy010Z0GWH
 
